@@ -6,9 +6,18 @@ Refer: https://huggingface.co/openai/whisper-base
 
     https://huggingface.co/openai/whisper-base/tree/main
 
+#### Virtual Python ENV.
+
+    python3 -m venv python-env && source python-env/bin/activate
+    pip install --upgrade pip
+    pip install "transformers>=4.35" "torch>=2.1,<2.4.0" "torchvision<0.19.0" "onnx<1.16.2" "peft==0.6.2" --extra-index-url https://download.pytorch.org/whl/cpu
+    pip install moviepy
+
 #### Run audio to text
 
     audio sampling rate: 16000 Hz
+
+    You can change your input audio in the run_whisper.py.
 
     $ ./run.sh 
 
