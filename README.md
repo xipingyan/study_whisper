@@ -1,4 +1,4 @@
-# study_whisper
+# Original pytorch model
 
 Refer: https://huggingface.co/openai/whisper-base
 
@@ -27,3 +27,9 @@ Refer: https://huggingface.co/openai/whisper-base
     time= 217.51093864440918 ms
     transcription= [{'timestamp': (0.0, 2.0), 'text': '再来一次'}]
 
+# whisper.cpp
+
+Refer: [whisper.cpp](https://github.com/ggerganov/whisper.cpp.git)
+
+    $ 
+    $ cd whisper.cpp
