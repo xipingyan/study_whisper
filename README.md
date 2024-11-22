@@ -31,5 +31,5 @@ Refer: https://huggingface.co/openai/whisper-base
 
 Refer: [whisper.cpp](https://github.com/ggerganov/whisper.cpp.git)
 
-    $ 
+    $ git submodule update --init
     $ cd whisper.cpp
