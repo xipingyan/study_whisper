@@ -29,8 +29,10 @@ Refer: https://huggingface.co/openai/whisper-base
 
 # whisper.cpp
 
-Refer: [whisper.cpp](https://github.com/ggerganov/whisper.cpp.git)
+Refer: [whisper.cpp](https://github.com/ggerganov/whisper.cpp.git) <br>
+Convert original pytorch model to whisper.cpp format. [Refer](https://github.com/ggerganov/whisper.cpp/tree/master/models#3-convert-with-convert-pt-to-ggmlpy) <br>
 
+    $ ./cvt_pytorch_model_to_whispercpp.sh
 
     $ git submodule update --init
     $ cd whisper.cpp
@@ -38,3 +40,5 @@ Refer: [whisper.cpp](https://github.com/ggerganov/whisper.cpp.git)
 
     $ cd ..
     $ run_whisper_cpp.sh
+
+    [00:00:00.000 --> 00:00:02.820]  再来一次再来一次
